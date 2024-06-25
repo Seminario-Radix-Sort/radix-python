@@ -12,7 +12,7 @@
 
 [![IDE][vscode-badge]][vscode-url]
 [![Poetry][poetry-badge]][poetry-url]
-[![Linguagem][rust-badge]][rust-url]
+[![Linguagem][python-badge]][python-url]
 
 Algoritmos e Estruturas de Dados I
 
