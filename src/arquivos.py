@@ -10,7 +10,7 @@ def leituraArquivo(vetor, nomeArquivo):
         vetor.append(int(numero))
 
 def escritaArquivo(nomeArquivo, tabelaSaida):
-    dataFormatada = datetime.now().strftime("%d-%m-%Y-%H:%M:%S")
+    dataFormatada = datetime.now().strftime("%d-%m-%Y-%H-%M-%S")
     nomeArquivo += '-' + dataFormatada + '.csv'
 
     conteudo = f"Data e Hora de Geração: {dataFormatada}\nTempos em segundos:\n{tabelaSaida}"
